@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WdW-Q5-S7t">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Vilon Cover-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SoundEffects" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="M1b-ep-ZOI">
+                                <rect key="frame" x="8" y="96" width="398" height="709"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vilon" translatesAutoresizingMaskIntoConstraints="NO" id="e5l-dj-iq7">
+                                        <rect key="frame" x="0.0" y="0.0" width="398" height="350.5"/>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="7Ud-xm-2Eg">
+                                        <rect key="frame" x="0.0" y="358.5" width="398" height="350.5"/>
+                                        <subviews>
+                                            <button opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uyo-5F-crr">
+                                                <rect key="frame" x="0.0" y="0.0" width="398" height="81.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                                <state key="normal" title="01. Canon in D">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="SongPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PtP-bS-aaB"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" alpha="0.69999999999999996" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VyA-C6-sUL">
+                                                <rect key="frame" x="0.0" y="89.5" width="398" height="82"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <state key="normal" title="02. Purple Passion">
+                                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="SongPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cy7-hd-2e1"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" alpha="0.69999999999999996" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="StY-yw-SEn">
+                                                <rect key="frame" x="0.0" y="179.5" width="398" height="81.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <state key="normal" title="03. Time of the Gypsies">
+                                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="SongPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YXs-cc-uD5"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" alpha="0.69999999999999996" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tLq-hg-1WI">
+                                                <rect key="frame" x="0.0" y="269" width="398" height="81.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <state key="normal" title="04. Hilary Hahn - Gigue">
+                                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="SongPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pvt-1n-b82"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.58072251080000004" green="0.066734083" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="M1b-ep-ZOI" secondAttribute="trailing" constant="8" id="Dw7-i1-iiC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="M1b-ep-ZOI" secondAttribute="bottom" constant="8" id="JHF-Er-XQ4"/>
+                            <constraint firstItem="M1b-ep-ZOI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="oqO-T9-IF6"/>
+                            <constraint firstItem="M1b-ep-ZOI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="rGB-a3-Jc5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Violin" id="POj-8a-hh3"/>
+                    <navigationItem key="navigationItem" title="Vilon Cover" id="obT-uG-BPO"/>
+                    <connections>
+                        <outlet property="btnViolin0" destination="Uyo-5F-crr" id="KDz-tb-TqG"/>
+                        <outlet property="btnViolin1" destination="VyA-C6-sUL" id="1dQ-aw-OhH"/>
+                        <outlet property="btnViolin2" destination="tLq-hg-1WI" id="14l-tn-BUf"/>
+                        <outlet property="btnViolin3" destination="tLq-hg-1WI" id="1NR-gV-Xgf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1333.3333333333335" y="833.70535714285711"/>
+        </scene>
+        <!--Piano-->
+        <scene sceneID="5Pz-c5-2RQ">
+            <objects>
+                <viewController id="cSe-Ia-VND" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qhh-Ik-JUC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sunset" translatesAutoresizingMaskIntoConstraints="NO" id="6Ys-Mq-bC5">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Ys-Mq-bC5" firstAttribute="leading" secondItem="mo8-Gm-GAF" secondAttribute="leading" id="5z8-Zq-rnl"/>
+                            <constraint firstItem="mo8-Gm-GAF" firstAttribute="bottom" secondItem="6Ys-Mq-bC5" secondAttribute="bottom" id="DVQ-8p-jyv"/>
+                            <constraint firstItem="mo8-Gm-GAF" firstAttribute="trailing" secondItem="6Ys-Mq-bC5" secondAttribute="trailing" id="ItW-QX-Bcs"/>
+                            <constraint firstItem="6Ys-Mq-bC5" firstAttribute="top" secondItem="mo8-Gm-GAF" secondAttribute="top" id="yot-E7-wYh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="mo8-Gm-GAF"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Piano" id="zrs-MI-ni3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="slQ-d6-RgS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-567" y="834"/>
+        </scene>
+        <!--Guitar-->
+        <scene sceneID="Tlc-Oh-vmr">
+            <objects>
+                <viewController id="4FY-Jg-4Xc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="d9K-nh-zj7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.1731652836" blue="0.18138130220000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="JZj-F5-iOj"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Guitar" id="xss-Vl-Pgk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="enm-tC-Efm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="188" y="834"/>
+        </scene>
+        <!--Windbell-->
+        <scene sceneID="Bo0-3q-BnK">
+            <objects>
+                <viewController id="BpN-W8-pBY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Pwt-2B-Rj0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.56031829119999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="zB1-68-rhL"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Windbell" id="Fjf-oR-HmB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YgJ-95-pGp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="930" y="834"/>
+        </scene>
+        <!--Xun-->
+        <scene sceneID="CXm-R0-qt9">
+            <objects>
+                <viewController id="6eB-g5-fzi" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Y58-gt-YJr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Bfn-zQ-sD8"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Xun" id="05b-dV-R3i"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KB3-Sf-W4l" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1675" y="834"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="xzf-3Q-3sX">
+            <objects>
+                <viewController id="Stp-rn-9lo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jwJ-Zc-dQ2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="KeR-Om-lqQ">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J60-Vs-efg">
+                                <rect key="frame" x="93" y="640" width="228" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="ZtK-cJ-nrh"/>
+                                    <constraint firstAttribute="width" constant="228" id="qqJ-rR-9eo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Begin your travel now!">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="tAW-5X-DwT" kind="show" id="AHj-5c-IXQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="J60-Vs-efg" firstAttribute="centerX" secondItem="6jz-8k-epy" secondAttribute="centerX" id="TD1-Ae-hIO"/>
+                            <constraint firstItem="KeR-Om-lqQ" firstAttribute="top" secondItem="6jz-8k-epy" secondAttribute="top" id="YMZ-vU-AQy"/>
+                            <constraint firstItem="6jz-8k-epy" firstAttribute="bottom" secondItem="KeR-Om-lqQ" secondAttribute="bottom" id="gPQ-gE-7Fr"/>
+                            <constraint firstItem="6jz-8k-epy" firstAttribute="bottom" secondItem="J60-Vs-efg" secondAttribute="bottom" constant="180" id="iQs-W4-RY6"/>
+                            <constraint firstItem="KeR-Om-lqQ" firstAttribute="leading" secondItem="6jz-8k-epy" secondAttribute="leading" id="kzF-po-yAZ"/>
+                            <constraint firstItem="6jz-8k-epy" firstAttribute="trailing" secondItem="KeR-Om-lqQ" secondAttribute="trailing" id="mlv-YM-qzU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6jz-8k-epy"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Home" id="UGW-me-MFd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Zb-xw-SGN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-76.811594202898561" y="97.767857142857139"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="lQf-5e-Qvy">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="tAW-5X-DwT" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Cpa-WS-M3m">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="l1Y-dd-vT6"/>
+                        <segue destination="cSe-Ia-VND" kind="relationship" relationship="viewControllers" id="DPC-8g-qAN"/>
+                        <segue destination="4FY-Jg-4Xc" kind="relationship" relationship="viewControllers" id="aJj-rX-fv0"/>
+                        <segue destination="BpN-W8-pBY" kind="relationship" relationship="viewControllers" id="kt2-Wm-0hn"/>
+                        <segue destination="6eB-g5-fzi" kind="relationship" relationship="viewControllers" id="Hw2-5o-h33"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u6X-of-2Mq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="97.767857142857139"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="GwJ-nb-2YH">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="WdW-Q5-S7t" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fdn-Od-IeS">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Stp-rn-9lo" kind="relationship" relationship="rootViewController" id="mrJ-Wg-ZA2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BcX-EQ-rxK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-988.40579710144937" y="97.767857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background" width="500" height="375"/>
+        <image name="sunset" width="1078" height="1488"/>
+        <image name="vilon" width="300" height="450"/>
+    </resources>
+</document>
