@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2586A9823307BAE0074EC13 /* PianoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2586A9723307BAE0074EC13 /* PianoViewController.swift */; };
+		A2586A9A2330B3130074EC13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2586A992330B3130074EC13 /* Assets.xcassets */; };
+		A2586A9E2330C9B90074EC13 /* violin0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2586A9D2330C9B90074EC13 /* violin0.mp3 */; };
+		A2586AA32330CBEC0074EC13 /* piano2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2586A9F2330CBEC0074EC13 /* piano2.mp3 */; };
+		A2586AA42330CBEC0074EC13 /* piano1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2586AA02330CBEC0074EC13 /* piano1.mp3 */; };
+		A2586AA52330CBEC0074EC13 /* piano3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2586AA12330CBEC0074EC13 /* piano3.mp3 */; };
+		A2586AA62330CBEC0074EC13 /* piano0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2586AA22330CBEC0074EC13 /* piano0.mp3 */; };
 		A2CD0406232C688900DC500C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CD0405232C688900DC500C /* AppDelegate.swift */; };
-		A2CD0408232C688900DC500C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CD0407232C688900DC500C /* ViewController.swift */; };
+		A2CD0408232C688900DC500C /* ViolinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CD0407232C688900DC500C /* ViolinViewController.swift */; };
 		A2CD040B232C688900DC500C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2CD0409232C688900DC500C /* Main.storyboard */; };
-		A2CD040D232C689D00DC500C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2CD040C232C689D00DC500C /* Assets.xcassets */; };
 		A2CD0410232C689D00DC500C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2CD040E232C689D00DC500C /* LaunchScreen.storyboard */; };
-		A2CD0419232CC83C00DC500C /* violin0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2CD0418232CC83C00DC500C /* violin0.mp3 */; };
 		A2CD041D232CC84900DC500C /* violin2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2CD041A232CC84900DC500C /* violin2.mp3 */; };
 		A2CD041E232CC84900DC500C /* violin3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2CD041B232CC84900DC500C /* violin3.mp3 */; };
 		A2CD041F232CC84900DC500C /* violin1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2CD041C232CC84900DC500C /* violin1.mp3 */; };
@@ -20,14 +25,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A2586A9723307BAE0074EC13 /* PianoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoViewController.swift; sourceTree = "<group>"; };
+		A2586A992330B3130074EC13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
+		A2586A9D2330C9B90074EC13 /* violin0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = violin0.mp3; sourceTree = "<group>"; };
+		A2586A9F2330CBEC0074EC13 /* piano2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = piano2.mp3; sourceTree = "<group>"; };
+		A2586AA02330CBEC0074EC13 /* piano1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = piano1.mp3; sourceTree = "<group>"; };
+		A2586AA12330CBEC0074EC13 /* piano3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = piano3.mp3; sourceTree = "<group>"; };
+		A2586AA22330CBEC0074EC13 /* piano0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = piano0.mp3; sourceTree = "<group>"; };
 		A2CD0402232C688900DC500C /* SoundEffects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundEffects.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2CD0405232C688900DC500C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A2CD0407232C688900DC500C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A2CD0407232C688900DC500C /* ViolinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViolinViewController.swift; sourceTree = "<group>"; };
 		A2CD040A232C688900DC500C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A2CD040C232C689D00DC500C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2CD040F232C689D00DC500C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2CD0411232C689D00DC500C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A2CD0418232CC83C00DC500C /* violin0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = violin0.mp3; sourceTree = "<group>"; };
 		A2CD041A232CC84900DC500C /* violin2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = violin2.mp3; sourceTree = "<group>"; };
 		A2CD041B232CC84900DC500C /* violin3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = violin3.mp3; sourceTree = "<group>"; };
 		A2CD041C232CC84900DC500C /* violin1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = violin1.mp3; sourceTree = "<group>"; };
@@ -66,10 +76,11 @@
 			children = (
 				A2CD0417232CAEFD00DC500C /* Sounds */,
 				A2CD0405232C688900DC500C /* AppDelegate.swift */,
-				A2CD0407232C688900DC500C /* ViewController.swift */,
+				A2CD0407232C688900DC500C /* ViolinViewController.swift */,
 				A2CD0420232CD2DD00DC500C /* PlayAutoViewController.swift */,
+				A2586A9723307BAE0074EC13 /* PianoViewController.swift */,
+				A2586A992330B3130074EC13 /* Assets.xcassets */,
 				A2CD0409232C688900DC500C /* Main.storyboard */,
-				A2CD040C232C689D00DC500C /* Assets.xcassets */,
 				A2CD040E232C689D00DC500C /* LaunchScreen.storyboard */,
 				A2CD0411232C689D00DC500C /* Info.plist */,
 			);
@@ -79,10 +90,14 @@
 		A2CD0417232CAEFD00DC500C /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				A2586AA22330CBEC0074EC13 /* piano0.mp3 */,
+				A2586AA02330CBEC0074EC13 /* piano1.mp3 */,
+				A2586A9F2330CBEC0074EC13 /* piano2.mp3 */,
+				A2586AA12330CBEC0074EC13 /* piano3.mp3 */,
+				A2586A9D2330C9B90074EC13 /* violin0.mp3 */,
 				A2CD041C232CC84900DC500C /* violin1.mp3 */,
 				A2CD041A232CC84900DC500C /* violin2.mp3 */,
 				A2CD041B232CC84900DC500C /* violin3.mp3 */,
-				A2CD0418232CC83C00DC500C /* violin0.mp3 */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -145,13 +160,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2586AA52330CBEC0074EC13 /* piano3.mp3 in Resources */,
+				A2586AA62330CBEC0074EC13 /* piano0.mp3 in Resources */,
+				A2586AA42330CBEC0074EC13 /* piano1.mp3 in Resources */,
 				A2CD0410232C689D00DC500C /* LaunchScreen.storyboard in Resources */,
+				A2586AA32330CBEC0074EC13 /* piano2.mp3 in Resources */,
 				A2CD041E232CC84900DC500C /* violin3.mp3 in Resources */,
 				A2CD041F232CC84900DC500C /* violin1.mp3 in Resources */,
-				A2CD040D232C689D00DC500C /* Assets.xcassets in Resources */,
 				A2CD041D232CC84900DC500C /* violin2.mp3 in Resources */,
-				A2CD0419232CC83C00DC500C /* violin0.mp3 in Resources */,
+				A2586A9A2330B3130074EC13 /* Assets.xcassets in Resources */,
 				A2CD040B232C688900DC500C /* Main.storyboard in Resources */,
+				A2586A9E2330C9B90074EC13 /* violin0.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,8 +181,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2CD0408232C688900DC500C /* ViewController.swift in Sources */,
+				A2CD0408232C688900DC500C /* ViolinViewController.swift in Sources */,
 				A2CD0421232CD2DD00DC500C /* PlayAutoViewController.swift in Sources */,
+				A2586A9823307BAE0074EC13 /* PianoViewController.swift in Sources */,
 				A2CD0406232C688900DC500C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
