@@ -29,18 +29,23 @@ class ViolinViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillAppear(animated)
+        super.viewWillDisappear(animated)
         
-        PlayAutoViewController.audioPlayer?.pause()
+        PlayAudio.audioPlayer?.pause()
+        let btnItems:[UIButton] = [btnViolin0,btnViolin1,btnViolin2,btnViolin3]
+        let updateUI = RenewInterface()
+        updateUI.UpdateUI(btnList: btnItems)
+        
     }
     @IBAction func SongPressed(_ sender: UIButton) {
         
         let btnItems:[UIButton] = [btnViolin0,btnViolin1,btnViolin2,btnViolin3]
-        let PlayAudio = PlayAutoViewController(btnList: btnItems ,sender: sender, soundList: soundList, backgroundColor: UIColor.white, fontColor: UIColor.red)
-        PlayAudio.ChangeUI()
-        PlayAudio.PlayAudio()
+        let PlayAudios = PlayAudio(btnList: btnItems ,sender: sender, soundList: soundList, backgroundColor: UIColor.white, fontColor: UIColor.red)
+        PlayAudios.ChangeUI()
+        PlayAudios.Play()
         
     }
+
     
 }
 

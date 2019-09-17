@@ -10,12 +10,121 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SoundEffects/PlayAutoViewController.swift"
-            timestampString = "590402415.985728"
+            timestampString = "590402637.9404581"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "47"
             endingLineNumber = "47"
             landmarkName = "PlayAudio()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SoundEffects/PianoViewController.swift"
+            timestampString = "590456598.322045"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "PianoViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SoundEffects.PianoViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; SoundEffects.PianoViewController"
+                  moduleName = "SoundEffects"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wendy/Documents/Unitec-Sylvia/Computing/Semester2/ISO/Assignment2/Sound%20Effect/SoundEffects/SoundEffects/PianoViewController.swift"
+                  timestampString = "590403349.912258"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SoundEffects.PianoViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; SoundEffects.PianoViewController"
+                  moduleName = "SoundEffects"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wendy/Documents/Unitec-Sylvia/Computing/Semester2/ISO/Assignment2/Sound%20Effect/SoundEffects/SoundEffects/PianoViewController.swift"
+                  timestampString = "590403349.915134"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "219">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SoundEffects.PianoViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;SoundEffects.PianoViewController&gt;"
+                  moduleName = "SoundEffects"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wendy/Documents/Unitec-Sylvia/Computing/Semester2/ISO/Assignment2/Sound%20Effect/SoundEffects/SoundEffects/PianoViewController.swift"
+                  timestampString = "590403349.918116"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SoundEffects.PianoViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;SoundEffects.PianoViewController&gt;"
+                  moduleName = "SoundEffects"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wendy/Documents/Unitec-Sylvia/Computing/Semester2/ISO/Assignment2/Sound%20Effect/SoundEffects/SoundEffects/PianoViewController.swift"
+                  timestampString = "590403349.9205559"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SoundEffects.PianoViewController.__deallocating_deinit"
+                  moduleName = "SoundEffects"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wendy/Documents/Unitec-Sylvia/Computing/Semester2/ISO/Assignment2/Sound%20Effect/SoundEffects/SoundEffects/PianoViewController.swift"
+                  timestampString = "590403349.922556"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SoundEffects/PlayAudio.swift"
+            timestampString = "590407311.686887"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "Play()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

@@ -28,16 +28,19 @@ let soundList:[String] = ["piano0", "piano1", "piano2", "piano3"]
     }
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
-        PlayAutoViewController.audioPlayer?.pause()
-    }
-    @IBAction func SongPressed(_ sender: UIButton) {
-        
+        //stop audio
+        PlayAudio.audioPlayer?.pause()
+        //renew interface
         let btnItems:[UIButton] = [btnPiano0,btnPiano1,btnPiano2,btnPiano3]
-        let PlayAudio = PlayAutoViewController(btnList: btnItems ,sender: sender, soundList: soundList, backgroundColor: UIColor.white, fontColor: UIColor.black)
-        PlayAudio.ChangeUI()
-        PlayAudio.PlayAudio()
-        
+        let updateUI = RenewInterface()
+        updateUI.UpdateUI(btnList: btnItems)
     }
 
+    @IBAction func SongPressed(_ sender: UIButton) {
+        let btnItems:[UIButton] = [btnPiano0,btnPiano1,btnPiano2,btnPiano3]
+        let PlayAudios = PlayAudio(btnList: btnItems ,sender: sender, soundList: soundList, backgroundColor: UIColor.white, fontColor: UIColor.black)
+        PlayAudios.ChangeUI()
+        PlayAudios.Play()
+    }
+    
 }

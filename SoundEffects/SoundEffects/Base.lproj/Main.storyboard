@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WdW-Q5-S7t">
-    <device id="retina6_1" orientation="portrait">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,20 +15,20 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViolinViewController" customModule="SoundEffects" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="M1b-ep-ZOI">
-                                <rect key="frame" x="8" y="96" width="398" height="709"/>
+                                <rect key="frame" x="8" y="96" width="359" height="625"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vilon" translatesAutoresizingMaskIntoConstraints="NO" id="e5l-dj-iq7">
-                                        <rect key="frame" x="0.0" y="0.0" width="398" height="350.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="359" height="308.66666666666669"/>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="7Ud-xm-2Eg">
-                                        <rect key="frame" x="0.0" y="358.5" width="398" height="350.5"/>
+                                        <rect key="frame" x="0.0" y="316.66666666666674" width="359" height="308.33333333333326"/>
                                         <subviews>
                                             <button opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uyo-5F-crr">
-                                                <rect key="frame" x="0.0" y="0.0" width="398" height="81.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="359" height="71"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                                 <state key="normal" title="01. Viva La Vida">
@@ -39,7 +39,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" alpha="0.69999999999999996" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VyA-C6-sUL">
-                                                <rect key="frame" x="0.0" y="89.5" width="398" height="82"/>
+                                                <rect key="frame" x="0.0" y="79" width="359" height="71"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="02. Purple Passion">
                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -49,7 +49,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" alpha="0.69999999999999996" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="StY-yw-SEn">
-                                                <rect key="frame" x="0.0" y="179.5" width="398" height="81.5"/>
+                                                <rect key="frame" x="0.0" y="157.99999999999994" width="359" height="71.333333333333314"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="03. Time of the Gypsies">
                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -59,7 +59,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" alpha="0.69999999999999996" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tLq-hg-1WI">
-                                                <rect key="frame" x="0.0" y="269" width="398" height="81.5"/>
+                                                <rect key="frame" x="0.0" y="237.33333333333331" width="359" height="71"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="04. Hilary Hahn - Gigue">
                                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -100,54 +100,59 @@
         <!--Piano-->
         <scene sceneID="5Pz-c5-2RQ">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="slQ-d6-RgS" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="cSe-Ia-VND" customClass="PianoViewController" customModule="SoundEffects" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qhh-Ik-JUC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="qsT-th-kds">
-                                <rect key="frame" x="8" y="96" width="398" height="709"/>
+                                <rect key="frame" x="8" y="96" width="359" height="625"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="piano" translatesAutoresizingMaskIntoConstraints="NO" id="2NS-q0-NbJ">
-                                        <rect key="frame" x="0.0" y="0.0" width="398" height="350.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="359" height="308.66666666666669"/>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="wuo-85-soW">
-                                        <rect key="frame" x="0.0" y="358.5" width="398" height="350.5"/>
+                                        <rect key="frame" x="0.0" y="316.66666666666674" width="359" height="308.33333333333326"/>
                                         <subviews>
                                             <button opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hFL-le-LKo">
-                                                <rect key="frame" x="0.0" y="0.0" width="398" height="81.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="359" height="71"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="01. Canon in D">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="btnPiano0:" destination="cSe-Ia-VND" eventType="touchUpInside" id="kwL-Hh-frW"/>
+                                                    <action selector="SongPressed:" destination="cSe-Ia-VND" eventType="touchUpInside" id="LAZ-HS-Zmu"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" alpha="0.69999998807907104" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zpc-Dr-U2V">
-                                                <rect key="frame" x="0.0" y="89.5" width="398" height="82"/>
+                                            <button opaque="NO" alpha="0.69999998807907104" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zpc-Dr-U2V">
+                                                <rect key="frame" x="0.0" y="79" width="359" height="71"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                <state key="normal" title="02. For Elise">
+                                                <state key="normal" title="02. Summer">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="btnPiano0:" destination="cSe-Ia-VND" eventType="touchUpInside" id="kt9-55-xik"/>
+                                                    <action selector="SongPressed:" destination="cSe-Ia-VND" eventType="touchUpInside" id="IiR-vO-PAS"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" alpha="0.69999998807907104" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W7t-8d-wQo">
-                                                <rect key="frame" x="0.0" y="179.5" width="398" height="81.5"/>
+                                            <button opaque="NO" alpha="0.69999998807907104" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W7t-8d-wQo">
+                                                <rect key="frame" x="0.0" y="157.99999999999994" width="359" height="71.333333333333314"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="03. In the Spring">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="SongPressed:" destination="cSe-Ia-VND" eventType="touchUpInside" id="DN5-6r-apO"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" alpha="0.69999998807907104" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MC0-0K-Gke">
-                                                <rect key="frame" x="0.0" y="269" width="398" height="81.5"/>
+                                            <button opaque="NO" alpha="0.69999998807907104" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MC0-0K-Gke">
+                                                <rect key="frame" x="0.0" y="237.33333333333331" width="359" height="71"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <state key="normal" title="04. Secret Garden">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="SongPressed:" destination="cSe-Ia-VND" eventType="touchUpInside" id="Lph-QQ-AUU"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -171,53 +176,66 @@
                         <outlet property="btnPiano3" destination="MC0-0K-Gke" id="qks-Po-rDd"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="slQ-d6-RgS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-309" y="834"/>
         </scene>
         <!--Guitar-->
         <scene sceneID="Tlc-Oh-vmr">
             <objects>
-                <viewController id="4FY-Jg-4Xc" sceneMemberID="viewController">
+                <viewController id="4FY-Jg-4Xc" customClass="GuitarViewController" customModule="SoundEffects" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="d9K-nh-zj7">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="sm8-eY-htK">
-                                <rect key="frame" x="8" y="96" width="398" height="709"/>
+                                <rect key="frame" x="8" y="96" width="359" height="625"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="guitar" translatesAutoresizingMaskIntoConstraints="NO" id="HCQ-Ok-o9L">
-                                        <rect key="frame" x="0.0" y="0.0" width="398" height="350.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="359" height="308.66666666666669"/>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="oHY-CN-oSP">
-                                        <rect key="frame" x="0.0" y="358.5" width="398" height="350.5"/>
+                                        <rect key="frame" x="0.0" y="316.66666666666674" width="359" height="308.33333333333326"/>
                                         <subviews>
                                             <button opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sLY-Kk-ER9">
-                                                <rect key="frame" x="0.0" y="0.0" width="398" height="81.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="359" height="71"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                <state key="normal" title="Button">
+                                                <state key="normal" title="01. Saint Saens - Danse Macabre">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="SongPressed:" destination="4FY-Jg-4Xc" eventType="touchUpInside" id="3bS-yE-gJq"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" alpha="0.69999998807907104" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RXh-9s-Xbi">
-                                                <rect key="frame" x="0.0" y="89.5" width="398" height="82"/>
+                                            <button opaque="NO" alpha="0.69999998807907104" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RXh-9s-Xbi">
+                                                <rect key="frame" x="0.0" y="79" width="359" height="71"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                <state key="normal" title="Button">
+                                                <state key="normal" title="02. Pyotr Ilyich Tchaikovsky - Swan Lake">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="SongPressed:" destination="4FY-Jg-4Xc" eventType="touchUpInside" id="SkQ-HR-f1i"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" alpha="0.69999998807907104" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XVb-If-QGn">
-                                                <rect key="frame" x="0.0" y="179.5" width="398" height="81.5"/>
+                                            <button opaque="NO" alpha="0.69999998807907104" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XVb-If-QGn">
+                                                <rect key="frame" x="0.0" y="157.99999999999994" width="359" height="71.333333333333314"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                <state key="normal" title="Button">
+                                                <state key="normal" title="03. Wolfgang Amadeus Mozart - Serenade ">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="SongPressed:" destination="4FY-Jg-4Xc" eventType="touchUpInside" id="41W-kz-Fpg"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" alpha="0.69999998807907104" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xzj-V7-bwB">
-                                                <rect key="frame" x="0.0" y="269" width="398" height="81.5"/>
+                                            <button opaque="NO" alpha="0.69999998807907104" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xzj-V7-bwB">
+                                                <rect key="frame" x="0.0" y="237.33333333333331" width="359" height="71"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                <state key="normal" title="Button">
+                                                <state key="normal" title="04. Franz Seraphicus Peter Schubert - Serenade ">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="SongPressed:" destination="4FY-Jg-4Xc" eventType="touchUpInside" id="3Ku-QS-eIT"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -234,6 +252,12 @@
                         <viewLayoutGuide key="safeArea" id="JZj-F5-iOj"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Guitar" id="xss-Vl-Pgk"/>
+                    <connections>
+                        <outlet property="btnGuitar0" destination="sLY-Kk-ER9" id="4cw-Mz-HI4"/>
+                        <outlet property="btnGuitar1" destination="RXh-9s-Xbi" id="Ngi-wG-OpD"/>
+                        <outlet property="btnGuitar2" destination="XVb-If-QGn" id="SAx-FD-C0H"/>
+                        <outlet property="btnGuitar3" destination="xzj-V7-bwB" id="0vs-jA-CaW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="enm-tC-Efm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -242,47 +266,59 @@
         <!--Lute-->
         <scene sceneID="Bo0-3q-BnK">
             <objects>
-                <viewController id="BpN-W8-pBY" sceneMemberID="viewController">
+                <viewController id="BpN-W8-pBY" customClass="LuteViewController" customModule="SoundEffects" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Pwt-2B-Rj0">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="JcR-9t-Sz2">
-                                <rect key="frame" x="8" y="96" width="398" height="709"/>
+                                <rect key="frame" x="8" y="96" width="359" height="625"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lute" translatesAutoresizingMaskIntoConstraints="NO" id="CJi-gT-ogC">
-                                        <rect key="frame" x="0.0" y="0.0" width="398" height="350.5"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lute" translatesAutoresizingMaskIntoConstraints="NO" id="CJi-gT-ogC">
+                                        <rect key="frame" x="0.0" y="0.0" width="359" height="308.66666666666669"/>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="W3f-g3-zdq">
-                                        <rect key="frame" x="0.0" y="358.5" width="398" height="350.5"/>
+                                        <rect key="frame" x="0.0" y="316.66666666666674" width="359" height="308.33333333333326"/>
                                         <subviews>
                                             <button opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cMF-Bj-OZf">
-                                                <rect key="frame" x="0.0" y="0.0" width="398" height="81.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="359" height="71"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                <state key="normal" title="Button">
+                                                <state key="normal" title="01. Whisper from Lute">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="SongPressed:" destination="BpN-W8-pBY" eventType="touchUpInside" id="d57-uu-XLH"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" alpha="0.69999998807907104" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xmb-un-Fue">
-                                                <rect key="frame" x="0.0" y="89.5" width="398" height="82"/>
+                                            <button opaque="NO" alpha="0.69999998807907104" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xmb-un-Fue">
+                                                <rect key="frame" x="0.0" y="79" width="359" height="71"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                <state key="normal" title="Button">
+                                                <state key="normal" title="02. The Curse of Love">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="SongPressed:" destination="BpN-W8-pBY" eventType="touchUpInside" id="WvA-SF-Yyg"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" alpha="0.69999998807907104" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8lG-Dd-Vfu">
-                                                <rect key="frame" x="0.0" y="179.5" width="398" height="81.5"/>
+                                            <button opaque="NO" alpha="0.69999998807907104" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8lG-Dd-Vfu">
+                                                <rect key="frame" x="0.0" y="157.99999999999994" width="359" height="71.333333333333314"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                <state key="normal" title="Button">
+                                                <state key="normal" title="03. The Endless Road">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="SongPressed:" destination="BpN-W8-pBY" eventType="touchUpInside" id="gWZ-L3-sqX"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" alpha="0.69999998807907104" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mok-ld-IEb">
-                                                <rect key="frame" x="0.0" y="269" width="398" height="81.5"/>
+                                            <button opaque="NO" alpha="0.69999998807907104" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mok-ld-IEb">
+                                                <rect key="frame" x="0.0" y="237.33333333333331" width="359" height="71"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                <state key="normal" title="Button">
+                                                <state key="normal" title="04. Inverse">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="SongPressed:" destination="BpN-W8-pBY" eventType="touchUpInside" id="LnP-eG-h8a"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -299,6 +335,12 @@
                         <viewLayoutGuide key="safeArea" id="zB1-68-rhL"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Lute" id="Fjf-oR-HmB"/>
+                    <connections>
+                        <outlet property="btnLute0" destination="cMF-Bj-OZf" id="qPv-1P-ObN"/>
+                        <outlet property="btnLute1" destination="Xmb-un-Fue" id="gnl-g8-8An"/>
+                        <outlet property="btnLute2" destination="8lG-Dd-Vfu" id="0Mj-EJ-oS0"/>
+                        <outlet property="btnLute3" destination="Mok-ld-IEb" id="Gi2-CZ-DU0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YgJ-95-pGp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -307,16 +349,16 @@
         <!--Home-->
         <scene sceneID="xzf-3Q-3sX">
             <objects>
-                <viewController id="Stp-rn-9lo" customClass="ViolinViewController" customModule="SoundEffects" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Stp-rn-9lo" customClass="MainViewController" customModule="SoundEffects" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jwJ-Zc-dQ2">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sunset" translatesAutoresizingMaskIntoConstraints="NO" id="KeR-Om-lqQ">
-                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <rect key="frame" x="0.0" y="88" width="375" height="690"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J60-Vs-efg">
-                                <rect key="frame" x="93" y="640" width="228" height="42"/>
+                                <rect key="frame" x="73.666666666666686" y="556" width="228" height="42"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="ZtK-cJ-nrh"/>
                                     <constraint firstAttribute="width" constant="228" id="qqJ-rR-9eo"/>
@@ -374,7 +416,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="WdW-Q5-S7t" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fdn-Od-IeS">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
