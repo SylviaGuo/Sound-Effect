@@ -12,6 +12,11 @@
 		A24D761B2331A6FF00ACC574 /* guitar3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A24D76172331A6FE00ACC574 /* guitar3.mp3 */; };
 		A24D761C2331A6FF00ACC574 /* guitar0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A24D76182331A6FF00ACC574 /* guitar0.mp3 */; };
 		A24D761D2331A6FF00ACC574 /* guitar1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A24D76192331A6FF00ACC574 /* guitar1.mp3 */; };
+		A24D761F2331BC6F00ACC574 /* BagpipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24D761E2331BC6F00ACC574 /* BagpipeViewController.swift */; };
+		A24D76242331BEAA00ACC574 /* bagpipe0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A24D76202331BEAA00ACC574 /* bagpipe0.mp3 */; };
+		A24D76252331BEAA00ACC574 /* bagpipe1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A24D76212331BEAA00ACC574 /* bagpipe1.mp3 */; };
+		A24D762A2331C16500ACC574 /* bagpipe2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A24D76282331C16400ACC574 /* bagpipe2.mp3 */; };
+		A24D762B2331C16500ACC574 /* bagpipe3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A24D76292331C16500ACC574 /* bagpipe3.mp3 */; };
 		A2586A9823307BAE0074EC13 /* PianoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2586A9723307BAE0074EC13 /* PianoViewController.swift */; };
 		A2586A9A2330B3130074EC13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2586A992330B3130074EC13 /* Assets.xcassets */; };
 		A2586A9E2330C9B90074EC13 /* violin0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A2586A9D2330C9B90074EC13 /* violin0.mp3 */; };
@@ -41,6 +46,11 @@
 		A24D76172331A6FE00ACC574 /* guitar3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = guitar3.mp3; sourceTree = "<group>"; };
 		A24D76182331A6FF00ACC574 /* guitar0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = guitar0.mp3; sourceTree = "<group>"; };
 		A24D76192331A6FF00ACC574 /* guitar1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = guitar1.mp3; sourceTree = "<group>"; };
+		A24D761E2331BC6F00ACC574 /* BagpipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagpipeViewController.swift; sourceTree = "<group>"; };
+		A24D76202331BEAA00ACC574 /* bagpipe0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bagpipe0.mp3; sourceTree = "<group>"; };
+		A24D76212331BEAA00ACC574 /* bagpipe1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bagpipe1.mp3; sourceTree = "<group>"; };
+		A24D76282331C16400ACC574 /* bagpipe2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bagpipe2.mp3; sourceTree = "<group>"; };
+		A24D76292331C16500ACC574 /* bagpipe3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bagpipe3.mp3; sourceTree = "<group>"; };
 		A2586A9723307BAE0074EC13 /* PianoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoViewController.swift; sourceTree = "<group>"; };
 		A2586A992330B3130074EC13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
 		A2586A9D2330C9B90074EC13 /* violin0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = violin0.mp3; sourceTree = "<group>"; };
@@ -103,9 +113,10 @@
 				A2586AA72330E1140074EC13 /* MainViewController.swift */,
 				A2CD0420232CD2DD00DC500C /* PlayAudio.swift */,
 				A2586A9723307BAE0074EC13 /* PianoViewController.swift */,
+				A2586AA92330E47E0074EC13 /* LuteViewController.swift */,
+				A24D761E2331BC6F00ACC574 /* BagpipeViewController.swift */,
 				A2586A992330B3130074EC13 /* Assets.xcassets */,
 				A2CD0409232C688900DC500C /* Main.storyboard */,
-				A2586AA92330E47E0074EC13 /* LuteViewController.swift */,
 				A2CD040E232C689D00DC500C /* LaunchScreen.storyboard */,
 				A2CD0411232C689D00DC500C /* Info.plist */,
 			);
@@ -115,6 +126,10 @@
 		A2CD0417232CAEFD00DC500C /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				A24D76282331C16400ACC574 /* bagpipe2.mp3 */,
+				A24D76292331C16500ACC574 /* bagpipe3.mp3 */,
+				A24D76202331BEAA00ACC574 /* bagpipe0.mp3 */,
+				A24D76212331BEAA00ACC574 /* bagpipe1.mp3 */,
 				A24D76182331A6FF00ACC574 /* guitar0.mp3 */,
 				A24D76192331A6FF00ACC574 /* guitar1.mp3 */,
 				A24D76162331A6FE00ACC574 /* guitar2.mp3 */,
@@ -195,6 +210,7 @@
 			files = (
 				A24D761D2331A6FF00ACC574 /* guitar1.mp3 in Resources */,
 				A2586AA52330CBEC0074EC13 /* piano3.mp3 in Resources */,
+				A24D762A2331C16500ACC574 /* bagpipe2.mp3 in Resources */,
 				A2586AB12330E6720074EC13 /* lute0.mp3 in Resources */,
 				A24D761B2331A6FF00ACC574 /* guitar3.mp3 in Resources */,
 				A2586AA62330CBEC0074EC13 /* piano0.mp3 in Resources */,
@@ -205,12 +221,15 @@
 				A2586AA32330CBEC0074EC13 /* piano2.mp3 in Resources */,
 				A24D761A2331A6FF00ACC574 /* guitar2.mp3 in Resources */,
 				A2CD041E232CC84900DC500C /* violin3.mp3 in Resources */,
+				A24D76252331BEAA00ACC574 /* bagpipe1.mp3 in Resources */,
 				A2CD041F232CC84900DC500C /* violin1.mp3 in Resources */,
 				A2CD041D232CC84900DC500C /* violin2.mp3 in Resources */,
+				A24D76242331BEAA00ACC574 /* bagpipe0.mp3 in Resources */,
 				A2586A9A2330B3130074EC13 /* Assets.xcassets in Resources */,
 				A2CD040B232C688900DC500C /* Main.storyboard in Resources */,
 				A2586AAF2330E6720074EC13 /* lute1.mp3 in Resources */,
 				A2586AB02330E6720074EC13 /* lute2.mp3 in Resources */,
+				A24D762B2331C16500ACC574 /* bagpipe3.mp3 in Resources */,
 				A2586A9E2330C9B90074EC13 /* violin0.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,6 +246,7 @@
 				A2CD0421232CD2DD00DC500C /* PlayAudio.swift in Sources */,
 				A24D760D23319BEC00ACC574 /* GuitarViewController.swift in Sources */,
 				A2586A9823307BAE0074EC13 /* PianoViewController.swift in Sources */,
+				A24D761F2331BC6F00ACC574 /* BagpipeViewController.swift in Sources */,
 				A2586AAA2330E47E0074EC13 /* LuteViewController.swift in Sources */,
 				A2CD0406232C688900DC500C /* AppDelegate.swift in Sources */,
 			);
