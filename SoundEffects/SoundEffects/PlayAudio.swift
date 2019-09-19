@@ -26,6 +26,13 @@ class PlayAudio{
         self.backgroundColor = backgroundColor
         self.fontColor = fontColor
     }
+    //stop play
+    func StopPlay(){
+        PlayAudio.audioPlayer?.pause()
+        sender.backgroundColor = nil
+        sender.setTitleColor(backgroundColor, for: UIControl.State.normal)
+        
+    }
     
     //changUI
     func ChangeUI(){
@@ -40,6 +47,9 @@ class PlayAudio{
                 btnItems[index].setTitleColor(backgroundColor, for: UIControl.State.normal)
             }
         }
+    }
+    func isPlaying() ->Bool{
+        return PlayAudio.audioPlayer!.isPlaying
     }
     //paly audio
     func Play(){

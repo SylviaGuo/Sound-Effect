@@ -17,6 +17,9 @@ let soundList:[String] = ["piano0", "piano1", "piano2", "piano3"]
     @IBOutlet weak var btnPiano2: UIButton!
     @IBOutlet weak var btnPiano3: UIButton!
     
+    //store last time pressed somg
+    var previousSender:UIButton?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -39,8 +42,15 @@ let soundList:[String] = ["piano0", "piano1", "piano2", "piano3"]
     @IBAction func SongPressed(_ sender: UIButton) {
         let btnItems:[UIButton] = [btnPiano0,btnPiano1,btnPiano2,btnPiano3]
         let PlayAudios = PlayAudio(btnList: btnItems ,sender: sender, soundList: soundList, backgroundColor: UIColor.white, fontColor: UIColor.black)
-        PlayAudios.ChangeUI()
-        PlayAudios.Play()
+        //stop play the song
+        if previousSender == sender && PlayAudios.isPlaying() == true{
+            PlayAudios.StopPlay()
+            previousSender = sender
+        }else{ //play
+            PlayAudios.ChangeUI()
+            PlayAudios.Play()
+            previousSender = sender
+        }
     }
     
 }

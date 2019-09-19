@@ -12,12 +12,14 @@ import AVFoundation
 class ViolinViewController: UIViewController {
 
     let soundList:[String] = ["violin0", "violin1", "violin2", "violin3"]
-
+    
     @IBOutlet weak var btnViolin0: UIButton!
     @IBOutlet weak var btnViolin1: UIButton!
     @IBOutlet weak var btnViolin2: UIButton!
     @IBOutlet weak var btnViolin3: UIButton!
-
+    
+    //store last time pressed somg
+    var previousSender:UIButton?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,9 +43,15 @@ class ViolinViewController: UIViewController {
         
         let btnItems:[UIButton] = [btnViolin0,btnViolin1,btnViolin2,btnViolin3]
         let PlayAudios = PlayAudio(btnList: btnItems ,sender: sender, soundList: soundList, backgroundColor: UIColor.white, fontColor: UIColor.red)
-        PlayAudios.ChangeUI()
-        PlayAudios.Play()
-        
+        //stop play the song
+        if previousSender == sender && PlayAudios.isPlaying() == true{
+            PlayAudios.StopPlay()
+            previousSender = sender
+        }else{ //play
+            PlayAudios.ChangeUI()
+            PlayAudios.Play()
+            previousSender = sender
+        }
     }
 
     

@@ -16,7 +16,8 @@ class LuteViewController: UIViewController {
     @IBOutlet weak var btnLute3: UIButton!
     
     let soundList:[String] = ["lute0", "lute1", "lute2", "lute3"]
-    
+    //store last time pressed somg
+    var previousSender:UIButton?
 
     
     override func viewDidLoad() {
@@ -41,8 +42,15 @@ class LuteViewController: UIViewController {
     @IBAction func SongPressed(_ sender: UIButton) {
         let btnItems:[UIButton] = [btnLute0,btnLute1,btnLute2,btnLute3]
         let PlayAudios = PlayAudio(btnList: btnItems ,sender: sender, soundList: soundList, backgroundColor: UIColor.white, fontColor: UIColor.black)
-        PlayAudios.ChangeUI()
-        PlayAudios.Play()
+        //stop play the song
+        if previousSender == sender && PlayAudios.isPlaying() == true{
+            PlayAudios.StopPlay()
+            previousSender = sender
+        }else{ //play
+            PlayAudios.ChangeUI()
+            PlayAudios.Play()
+            previousSender = sender
+        }
     }
 
 }
